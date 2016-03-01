@@ -12,7 +12,7 @@ public class FileVisitor {
 
     public static void main(String[] args) throws IOException {
 
-        Path path = Paths.get("C:", "Users", "Eigenaar", "IdeaProjects");
+        Path path = Paths.get();
 
 
         Files.walkFileTree(path, new VisitMyFiles());
